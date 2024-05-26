@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* Universal css class */
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+.text-box p {
+    font-family: "Josefin sans", sans-serif;
+}
+  
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* Universal css class end*/
+
+/* ------------- Desktop Part Coding Starts From Here --------- */
+
+/* Header - Starting Page CSS only for desktop part */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.head-part {
+    background-color: aliceblue;
+    height: 90vh;
+    width: 100%;
+    border-radius: 0% 0% 100% 100%;
+}
+
+.head-part h1{
+    color: rgb(0, 0, 0);
+    font-size: 150px;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.head-part img{
+    width: 80%;
+}
